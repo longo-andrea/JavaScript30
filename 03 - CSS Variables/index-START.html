@@ -22,6 +22,19 @@
 
   <style>
 
+    :root {
+      --base: #ffc600;
+      --spacing: 10px;
+      --blur: 10px;
+    }
+
+    img {
+      background-color: var(--base);
+      padding: var(--spacing);
+      filter: blur(var(--blur));
+    }
+
+
     /*
       misc styles, nothing to do with CSS variables
     */
@@ -44,8 +57,7 @@
     }
   </style>
 
-  <script>
-  </script>
+  <script src="script.js"></script>
 
 </body>
 </html>
